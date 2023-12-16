@@ -1,5 +1,5 @@
-const CLI = require('./cli');
-const Shape = require('./shape');
+const CLI = require('./lib/cli');
+const Shape = require('./lib/shape');
 const fs = require('fs/promises');
 
 async function main() {
